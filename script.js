@@ -258,31 +258,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Waitlist form submission
-    const waitlistForm = document.getElementById('waitlist-form');
-    const formMessage = document.getElementById('form-message');
     
-    if (waitlistForm) {
-        waitlistForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const email = document.getElementById('email').value;
-            if (!email || !isValidEmail(email)) {
-                showFormMessage('Please enter a valid email address.', 'error');
-                return;
-            }
-            
-            // Store email in localStorage for demonstration
-            // In a real implementation, you would send this to a server
-            saveEmailToLocalStorage(email);
-            
-            // Show success message
-            showFormMessage('Thank you for joining our waitlist! We will keep you updated.', 'success');
-            
-            // Reset form
-            waitlistForm.reset();
-        });
-    }
 
     // Email validation function
     function isValidEmail(email) {
