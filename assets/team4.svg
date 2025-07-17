@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="avatarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffc107" />
+      <stop offset="100%" stop-color="#ff3e8f" />
+    </linearGradient>
+    <pattern id="marketingPattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M0 25 L50 25 M25 0 L25 50" stroke="#ffffff" stroke-width="0.5" opacity="0.2" />
+      <circle cx="25" cy="25" r="10" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.2" />
+    </pattern>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#avatarGradient)" />
+  
+  <!-- Marketing pattern overlay -->
+  <circle cx="100" cy="100" r="100" fill="url(#marketingPattern)" opacity="0.5" />
+  
+  <!-- Abstract face -->
+  <g fill="#ffffff" opacity="0.9">
+    <!-- Head shape -->
+    <circle cx="100" cy="85" r="40" />
+    
+    <!-- Body shape -->
+    <path d="M60 140 Q100 180 140 140 L140 200 L60 200 Z" />
+  </g>
+  
+  <!-- Face features -->
+  <g fill="#000" opacity="0.8">
+    <!-- Eyes -->
+    <circle cx="80" cy="80" r="5" />
+    <circle cx="120" cy="80" r="5" />
+    
+    <!-- Smile -->
+    <path d="M80 100 Q100 120 120 100" fill="none" stroke="#000" stroke-width="3" />
+  </g>
+  
+  <!-- Marketing elements -->
+  <g stroke="#ffffff" stroke-width="1" opacity="0.7" fill="none">
+    <!-- Growth chart -->
+    <path d="M40 160 L40 120 L60 130 L80 110 L100 120 L120 90 L140 70 L160 60" stroke-width="2" />
+    
+    <!-- Target icon -->
+    <circle cx="160" cy="40" r="15" />
+    <circle cx="160" cy="40" r="10" />
+    <circle cx="160" cy="40" r="5" />
+    <path d="M160 25 L160 55 M145 40 L175 40" />
+    
+    <!-- Megaphone icon -->
+    <path d="M40 40 L60 50 L60 30 Z" fill="#ffffff" opacity="0.7" />
+    <path d="M60 40 Q80 20 100 30" stroke-width="2" />
+    <path d="M60 40 Q80 60 100 50" stroke-width="2" />
+    
+    <!-- Social media icons -->
+    <circle cx="50" cy="90" r="8" />
+    <path d="M46 90 L54 90 M50 86 L50 94" />
+    
+    <rect x="70" cy="82" width="16" height="16" rx="3" />
+    <path d="M74 90 L82 90 M78 86 L78 94" />
+  </g>
+</svg>

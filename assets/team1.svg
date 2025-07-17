@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="avatarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff3e8f" />
+      <stop offset="100%" stop-color="#7928ca" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#avatarGradient)" />
+  
+  <!-- Abstract face -->
+  <g fill="#ffffff" opacity="0.9">
+    <!-- Head shape -->
+    <circle cx="100" cy="85" r="40" />
+    
+    <!-- Body shape -->
+    <path d="M60 140 Q100 180 140 140 L140 200 L60 200 Z" />
+  </g>
+  
+  <!-- Face features -->
+  <g fill="#000" opacity="0.8">
+    <!-- Eyes -->
+    <circle cx="80" cy="80" r="5" />
+    <circle cx="120" cy="80" r="5" />
+    
+    <!-- Smile -->
+    <path d="M80 100 Q100 120 120 100" fill="none" stroke="#000" stroke-width="3" />
+  </g>
+  
+  <!-- Tech circuit pattern -->
+  <g stroke="#ffffff" stroke-width="1" opacity="0.5" fill="none">
+    <path d="M30 50 L60 50 L60 30" />
+    <path d="M170 50 L140 50 L140 30" />
+    <path d="M30 150 L50 150 L50 170" />
+    <path d="M170 150 L150 150 L150 170" />
+    <circle cx="60" cy="50" r="3" fill="#ffffff" />
+    <circle cx="140" cy="50" r="3" fill="#ffffff" />
+    <circle cx="50" cy="150" r="3" fill="#ffffff" />
+    <circle cx="150" cy="150" r="3" fill="#ffffff" />
+  </g>
+</svg>

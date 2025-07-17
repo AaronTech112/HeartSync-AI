@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeartSync AI - Your Love Life, Upgraded by AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="assets/logo.svg" alt="HeartSync AI Logo">
+                    <span>HeartSync AI</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#token">$HEART Token</a>
+                    <a href="#roadmap">Roadmap</a>
+                    <a href="#waitlist" class="btn-primary">Join Waitlist</a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="glitch-text" data-text="HeartSync AI">HeartSync AI</h1>
+                <p class="tagline">No more guesswork. No more heartbreak. Just pure connection.</p>
+                <p class="description">A world-class AI-powered virtual dating assistant that represents you on dating apps — day and night — to find your perfect match.</p>
+                <div class="hero-buttons">
+                    <a href="#waitlist" class="btn-primary pulse">Join Waitlist</a>
+                    <a href="#features" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-hearts">
+                    <div class="heart heart1"><i class="fas fa-heart"></i></div>
+                    <div class="heart heart2"><i class="fas fa-heart"></i></div>
+                    <div class="heart heart3"><i class="fas fa-heart"></i></div>
+                </div>
+                <div class="ai-assistant">
+                    <div class="ai-circle">
+                        <div class="ai-pulse"></div>
+                    </div>
+                </div>
+                <div class="chat-bubbles">
+                    <div class="chat-bubble bubble1">Finding your perfect match...</div>
+                    <div class="chat-bubble bubble2">Analyzing compatibility...</div>
+                    <div class="chat-bubble bubble3">Detected: 98% match!</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-particles" id="particles-js"></div>
+    </section>
+
+    <section class="problem" id="problem">
+        <div class="container">
+            <div class="section-header">
+                <h2>Modern Dating is <span class="text-gradient">Broken</span></h2>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card" data-aos="fade-up">
+                    <div class="problem-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>No Time</h3>
+                    <p>People don't have time to chat with 20+ matches simultaneously.</p>
+                </div>
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="problem-icon">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3>Dishonesty</h3>
+                    <p>Many users lie, ghost, or fake who they are.</p>
+                </div>
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="problem-icon">
+                        <i class="fas fa-comment-slash"></i>
+                    </div>
+                    <h3>Social Anxiety</h3>
+                    <p>Shy people can't break the ice or maintain conversations.</p>
+                </div>
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="problem-icon">
+                        <i class="fas fa-mask"></i>
+                    </div>
+                    <h3>Scammers</h3>
+                    <p>Scammers exploit vulnerable users looking for connection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Key <span class="text-gradient">Features</span></h2>
+                <p>HeartSync AI is revolutionizing the dating experience</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="zoom-in">
+                    <div class="feature-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <h3>AI Clone Personality</h3>
+                    <p>Feed your AI with your preferences: likes, dislikes, love language, and personality. It talks just like you.</p>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Advanced Sentiment Analysis</h3>
+                    <p>Proprietary NLP algorithm analyzes communication patterns to identify compatibility and detect red flags in conversations.</p>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>24/7 Availability</h3>
+                    <p>Even when you're sleeping or at work, your AI is scouting matches and screening conversations.</p>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Emotion-Smart Chatting</h3>
+                    <p>The AI mimics your tone and vibe, ensuring authentic conversations that feel like you.</p>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Instant Soulmate Detection</h3>
+                    <p>Within minutes, the AI filters through thousands of users to match your personality with someone compatible.</p>
+                </div>
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Privacy & Security</h3>
+                    <p>Your data stays encrypted and safe. You have full control over your information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How <span class="text-gradient">It Works</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-number">1</div>
+                    <div class="timeline-content">
+                        <h3>Create Your AI Profile</h3>
+                        <p>Upload your preferences, personality traits, and dating goals to create your AI twin.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-number">2</div>
+                    <div class="timeline-content">
+                        <h3>AI Starts Matching</h3>
+                        <p>Your AI assistant begins conversations with potential matches across dating platforms.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-number">3</div>
+                    <div class="timeline-content">
+                        <h3>Compatibility Analysis</h3>
+                        <p>Advanced sentiment algorithms identify ideal matches and filter out incompatible personalities.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-number">4</div>
+                    <div class="timeline-content">
+                        <h3>Get Notified of Real Matches</h3>
+                        <p>Receive alerts only when someone genuine and compatible is found.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="token" id="token">
+        <div class="container">
+            <div class="section-header">
+                <h2>Introducing <span class="text-gradient">$HEART Token</span></h2>
+                <p>The soul of our ecosystem</p>
+            </div>
+            <div class="token-grid">
+                <div class="token-card" data-aos="flip-left">
+                    <div class="token-icon">
+                        <i class="fas fa-unlock"></i>
+                    </div>
+                    <h3>Premium Features</h3>
+                    <p>Unlock advanced matchmaking features and AI capabilities.</p>
+                </div>
+                <div class="token-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="token-icon">
+                        <i class="fas fa-filter"></i>
+                    </div>
+                    <h3>Enhanced Visibility</h3>
+                    <p>Boost visibility and access better filters in the ecosystem.</p>
+                </div>
+                <div class="token-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="token-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Rewards Program</h3>
+                    <p>Earn rewards through referrals and platform engagement.</p>
+                </div>
+                <div class="token-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="token-icon">
+                        <i class="fas fa-vote-yea"></i>
+                    </div>
+                    <h3>Governance</h3>
+                    <p>Use $HEART to vote on platform upgrades (DAO model).</p>
+                </div>
+            </div>
+            <div class="token-distribution">
+                <h3>Token Distribution</h3>
+                <div class="chart-container">
+                    <canvas id="tokenChart"></canvas>
+                </div>
+                <div class="token-stats">
+                    <div class="token-stat">
+                        <h4>Total Supply</h4>
+                        <p>1,000,000,000 $HEART</p>
+                    </div>
+                    <div class="token-stat">
+                        <h4>Initial Price</h4>
+                        <p>$0.01 USD</p>
+                    </div>
+                    <div class="token-stat">
+                        <h4>Presale Date</h4>
+                        <p>Q4 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="roadmap" id="roadmap">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="text-gradient">Roadmap</span></h2>
+            </div>
+            <div class="roadmap-timeline">
+                <div class="roadmap-item" data-aos="fade-up">
+                    <div class="roadmap-date">Q3 2025</div>
+                    <div class="roadmap-content">
+                        <h3>MVP Launch</h3>
+                        <ul>
+                            <li>AI Dating Bot Alpha</li>
+                            <li>Closed beta with 1,000 users</li>
+                            <li>Website launch</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="roadmap-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="roadmap-date">Q4 2025</div>
+                    <div class="roadmap-content">
+                        <h3>Token Presale</h3>
+                        <ul>
+                            <li>$HEART token launch</li>
+                            <li>Partner integrations</li>
+                            <li>AI Video/Voice Dating</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="roadmap-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="roadmap-date">Q1 2026</div>
+                    <div class="roadmap-content">
+                        <h3>Global Expansion</h3>
+                        <ul>
+                            <li>VR Date Rooms</li>
+                            <li>Verified AI Matching</li>
+                            <li>Celebrity & Influencer Program</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="text-gradient">Team</span></h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-member" data-aos="fade-up">
+                    <div class="member-image">
+                        <img src="assets/team1.svg" alt="Team Member">
+                    </div>
+                    <h3>Alex Morgan</h3>
+                    <p>Founder & CEO</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+                    <div class="member-image">
+                        <img src="assets/team2.svg" alt="Team Member">
+                    </div>
+                    <h3>Samantha Lee</h3>
+                    <p>CTO & AI Specialist</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member-image">
+                        <img src="assets/team3.svg" alt="Team Member">
+                    </div>
+                    <h3>Michael Chen</h3>
+                    <p>Blockchain Architect</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="team-member" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member-image">
+                        <img src="assets/team4.svg" alt="Team Member">
+                    </div>
+                    <h3>Jessica Taylor</h3>
+                    <p>Head of Marketing</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="waitlist" id="waitlist">
+        <div class="container">
+            <div class="waitlist-content">
+                <h2>Join Our <span class="text-gradient">Waitlist</span></h2>
+                <p>Be among the first to experience HeartSync AI and get early access to our token presale.</p>
+                <form id="waitlist-form" class="waitlist-form">
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn-primary">Join Now</button>
+                    </div>
+                    <div id="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.svg" alt="HeartSync AI Logo">
+                    <span>HeartSync AI</span>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <a href="#features">Features</a>
+                        <a href="#token">$HEART Token</a>
+                        <a href="#roadmap">Roadmap</a>
+                        <a href="#team">Team</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-telegram"></i></a>
+                            <a href="#"><i class="fab fa-discord"></i></a>
+                            <a href="#"><i class="fab fa-medium"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HeartSync AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
